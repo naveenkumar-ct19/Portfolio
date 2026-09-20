@@ -117,10 +117,7 @@ export default function OrionCloudMaxPage() {
         <h1>Designing an AI-powered SRE experience for faster, more transparent alert investigation</h1>
         <p>Orion CloudMax helps SRE teams triage production alerts using automated runbooks and AI-driven analysis across logs, metrics, and traces.</p>
         <div className="hero-laptop">
-          <div
-            className="hero-overview"
-            style={{ position: "absolute", zIndex: 1, top: "11.02px", left: "87.244px", width: "810.916px", height: "550.1px", marginLeft: 0, overflow: "hidden" }}
-          >
+          <div className="hero-overview">
             <OverviewPage className="hero-overview-page" />
           </div>
           <img src={laptopFrame} alt="Laptop frame" className="hero-laptop-frame" />

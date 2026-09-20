@@ -5057,7 +5057,7 @@ export function OverviewPage({ className = "" }: { className?: string } = {}) {
   return (
     <div
       className={`-translate-x-1/2 absolute bg-[#f9fafc] h-[550.1px] left-1/2 overflow-clip rounded-tl-[14.562px] rounded-tr-[14.562px] top-[11.02px] w-[810.916px] ${className}`}
-      style={className ? { position: "absolute", top: 0, left: 0, width: "810.916px", height: "550.1px", transform: "scale(.944)", transformOrigin: "top left" } : undefined}
+      style={className ? { position: "absolute", top: 0, left: 0, width: "810.916px", height: "550.1px" } : undefined}
       data-name="Overview Page"
     >
       <App />

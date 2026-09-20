@@ -28,8 +28,8 @@ body:has(.case-page) #root { height: auto; min-height: 0; background: #f2f4ff; }
 .case-hero h1 { max-width: 930px; margin: 26px auto 18px; font-family: "ITF Devanagari Marathi:Bold", "ITF Devanagari Marathi", "Noto Sans", Arial, sans-serif; font-size: 32px; font-weight: 700; line-height: normal; letter-spacing: -.03em; }
 .case-hero > p { max-width: 780px; margin: 0 auto; font-size: 18px; font-weight: 400; line-height: normal; }
 .hero-laptop { position: relative; left: 50%; width: 985.405px; height: 600px; margin-top: 38px; transform: translateX(-50%); }
-.hero-overview { position: absolute; z-index: 1; top: 10.396px; left: 82.301px; width: 764.964px; height: 518.928px; overflow: hidden; }
-.hero-overview-page { position: absolute !important; top: 0 !important; left: 0 !important; width: 810.916px !important; height: 550.1px !important; translate: 0 0 !important; transform: none !important; transform-origin: top left !important; }
+.hero-overview { position: absolute; z-index: 1; top: 11.02px; left: 87.244px; width: 810.916px; height: 550.1px; overflow: hidden; }
+.hero-overview-page { position: absolute !important; inset: 0 auto auto 0 !important; width: 810.916px !important; height: 550.1px !important; margin: 0 !important; translate: none !important; transform: none !important; transform-origin: top left !important; }
 .hero-overview-page [data-name="Main Content"] > [data-name="Container"] > [data-name="Heading 1"] { position: relative; left: -137px; }
 .hero-laptop-frame { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: contain; pointer-events: none; }
 .dashboard-preview { position: absolute; z-index: 1; top: 24px; left: 8.6%; width: 82.8%; height: 83%; overflow: hidden; display: flex; border: 5px solid #1b1a1d; border-radius: 18px 18px 8px 8px; background: #fbfcff; color: #43506a; text-align: left; box-shadow: 0 0 0 1px #606a79; }
