@@ -1,5 +1,9 @@
 {
+  "title": "My Portfolio",
   "description": "Enables users to interact with a precise React-based interface that replicates a specified design, enhancing user experience with seamless functionality.",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
   "robots": {
     "index": false
   },
